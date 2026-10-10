@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Large generated model checkpoints
+models/**/*.pt
+models/**/*.pth
+models/**/*.ckpt
+
+# Temporary files
+*.tmp
+*.log
